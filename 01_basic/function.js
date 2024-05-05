@@ -32,3 +32,35 @@ function loginuser(username) {
 // console.log(loginuser("akash"));
 // console.log(loginuser());
 
+function calculatecartPrice(...num1){
+return num1
+}
+// console.log(calculatecartPrice(200 , 600 , 500));
+
+const user ={
+    username:"akash",
+    price:999,
+}
+
+function handleObject(anyobjects){
+    console.log(`username is ${user.username} and price of course is ${user.price}`);
+}
+
+// handleObject(user)
+// handleObject({
+    // username:"akash",
+    // price:999,
+// })
+
+const myArr = [200 , 300 , 400]
+
+function returnnewarr(getArr) {
+    return getArr;
+}
+
+console.log(returnnewarr(myArr));
+console.log(returnnewarr([200 , 300 , 400]));
+
+
+
+
