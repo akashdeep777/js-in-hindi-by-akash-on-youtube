@@ -52,3 +52,23 @@ users[1].id
 
 // console.log(tinderuser.hasOwnProperty(`isllogged`))
 // console.log(tinderuser.hasOwnProperty(`islogged`))
+
+const course = {
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"akash"
+}
+
+// course.courseInstructor
+// console.log(courseInstructor)
+const {courseInstructor : teacher} = course
+
+// console.log(teacher)
+
+// JSON AND API
+
+// {
+//     "name" : "akash",
+//     "price" : "999",
+//     "course" : "js",
+// }
