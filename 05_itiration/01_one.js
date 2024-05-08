@@ -38,10 +38,10 @@ for (let index = 1; index <= 10; index++) {
 //     console.log(`value of i is ${index}`);
 // }
 
-for (let index = 1; index <= 10; index++) {
-    if (index == 5) {
-        console.log(`five is detected`);
-        continue
-    }
-    console.log(`value of i is ${index}`);
-}
+// for (let index = 1; index <= 10; index++) {
+//     if (index == 5) {
+//         console.log(`five is detected`);
+//         continue
+//     }
+//     console.log(`value of i is ${index}`);
+// }
